@@ -20,11 +20,11 @@ CogX 官网源码：产品介绍、下载入口、Web 插件商店与文档中�
 
 前置环境：`node >= 26`、`pnpm >= 12`。
 
-文档源文件不在本仓库内。首次启动前，先到本仓库的**上级目录**，把 `cogx` 仓库克隆成兄弟目录，再回到本仓库安装依赖：
+文档源文件不在本仓库内。首次启动前，先到本仓库的**上级目录**，把 文档 仓库克隆成兄弟目录，再回到本仓库安装依赖：
 
 ```bash
 cd ..
-git clone https://github.com/cogx-run/cogx.git
+git clone https://github.com/cogx-run/cogx_doc.git  # 当前项目不存在
 cd cogx-website
 pnpm install
 pnpm dev
